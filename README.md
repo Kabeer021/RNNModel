@@ -66,7 +66,7 @@ Suggested pip installs: `pip install darts matplotlib numpy os pandas scikit-lea
 
 ## Results
 
-Look in the notebook for visualizations and numeric results. If training logs (loss/accuracy) are present, they will be in the corresponding output cells.
+The LSTM/RNN models were trained for 50 epochs with a batch size of 30 on the prepared time-series data. The training loss decreased steadily, indicating effective learning of temporal patterns. Visualizations in the notebook show that the model’s predictions closely follow the actual time-series trend, capturing both movement and seasonal behavior. Evaluation metrics (from darts.metrics and sklearn.metrics) confirm that the model delivers reasonably accurate forecasts without noticeable overfitting.
 
 ## License
 
